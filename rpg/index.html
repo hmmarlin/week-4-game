@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Ultimate Emoji Battle</title>
+
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+<!-- 	<script src="https://code.jquery.com/jquery-2.2.3.js" integrity="sha256-laXWtGydpwqJ8JA+X9x2miwmaiKhn8tVmOVEigRNtP4=" crossorigin="anonymous"></script>
+	<script src="assets/javascript/game.js"></script> -->
+
+	<style type='text/css'>
+	body{
+		margin-left: 20px;
+		margin-right: 20px;
+	}
+	#your-character{
+		background-color:blue;
+	}
+
+	#your-enemy{
+		background-color:green;
+	}
+	#contestants {
+		background-color:yellow;
+	}
+</style>
+
+</head>
+<body>
+
+
+<h1>Only the strongest emoji will survive...</h1>
+<h3> </h3>
+
+<div class ="row" id="battle-stage">
+		<div class="col-md-2">
+		<button type="button" class="btn btn-default btn-md" id ="main-character-btn">
+  <span class="glyphicon glyphicon-star" aria-hidden="true"></span> Your Character Here!</button>
+		</div>
+
+		<div class="col-md-4" id="your-character">
+
+		</div>
+		<div class="col-md-4" id="your-enemy">
+
+		</div>
+
+		<div class="col-md-2">
+				<button type="button" class="btn btn-default btn-md" id ="enemy-character-btn">
+  <span class="glyphicon glyphicon-star" aria-hidden="true"></span> Your Enemy Here!</button>
+		</div>
+</div>
+
+<div class="row" id ="contestants">
+		<div class="col-md-3 image" id="Cat">
+			
+		</div>
+
+		<div class="col-md-3 image" id="Dog">
+			
+		</div>
+		<div class="col-md-3 image" id ="Bug">
+			
+		</div>
+		<div class="col-md-3 image" id ="Dolphin">
+			
+		</div>
+
+</div>
+
+<div class="row" id="bench">
+		<div class="col-md-2">
+			<!-- empty div -->
+		</div>
+
+		<div class="col-md-4" id="other-enemy">
+
+		</div>
+		<div class="col-md-4" id="another-enemy">
+
+		</div>
+
+		<div class="col-md-2">
+			<!-- empty div -->
+		</div>
+
+	<script src="https://code.jquery.com/jquery-2.2.3.js" integrity="sha256-laXWtGydpwqJ8JA+X9x2miwmaiKhn8tVmOVEigRNtP4=" crossorigin="anonymous"></script>
+
+	<script src="assets/javascript/game-1.js"></script>
+
+</body>
+</html>
